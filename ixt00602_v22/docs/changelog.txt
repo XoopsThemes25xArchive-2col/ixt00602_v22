@@ -1,0 +1,70 @@
+IXThemes ChangeLog
+
+== IXThemes ixt00602 ==
+
+===2009-12-24 : 2.2 ===
+
+Improved:
+- Footer blocks code is optimized
+- Two new control zone are added
+
+===2009-12-13 : 2.0 ===
+
+Improved:
+- The zone for promo slides is added
+- The expanded footer zone is added
+- Loading jQuery from CMS core (for XOOPS 2.4.x) is added
+- The self-adjusted menubar is added
+
+===2009-02-27 : 1.3 ===
+
+Fixed:
+- Tracker: IXThemes #2645692: At usage IE7 or Maxthon browser the picture in a page header overlaps the
+main content
+
+===2009-02-15 : 1.1 ===
+
+Fixed:
+- Assign "theme_top_order" and "theme_bottom_order" to value "clr" in theme.html
+
+===2009-01-01 : 1.0 ===
+
+The first release of a themes collection ixt006
+
+Some features of a themes collection
+==================================
+
+New system blocks templates:
+------------------------
+- Language Selection (en,ru,de,pt_br,it)
+- Search (en,ru,de,pt_br,it)
+- Login (en,ru,de,pt_br,it)
+- User Menu (en,ru,de,pt_br,it)
+- Main Menu (en,ru,de,pt_br,it)
+- Waiting Contents (en,ru,de,pt_br,it)
+- Site Info (en,ru,de,pt_br,it)
+- Who's Online (en,ru,de,pt_br,it)
+- Themes (en,ru,de,pt_br,it)
+- Top Posters (en,ru,de,pt_br,it)
+- New Members (en,ru,de,pt_br,it)
+- Content Menu (en,ru,de,pt_br,it)
+
+Additional support of multilanguage graphics files:
+------------------------
+- English (en)
+- Russian (ru)
+- German (de)
+- Portuguese Brazilian (pt_br)
+- Italian (it)
+
+New blocks templates of modules:
+------------------------
+- ImLinks
+-- Recent imLinks (en,ru,de,pt_br,it)
+-- Top imLinks (en,ru,de,pt_br,it)
+- ImGlossary
+-- Newest Terms (en,ru,de,pt_br,it)
+-- Most Read Terms (en,ru,de,pt_br,it)
+-- Random term (en,ru,de,pt_br,it)
+- ImPression
+-- Spotlight (en,ru,de,pt_br,it)

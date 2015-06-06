@@ -1,0 +1,200 @@
+<{*
+* Qualitative Themes for XOOPS
+*
+* @license       http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
+* @project       IXThemes Project, http://ixthemes.org
+* @theme_name    ixt00602
+* @theme_demo    http://ixthemes.sourceforge.net/demo/x/index.php?xoops_theme_select=ixt00602
+* @version		     $Id: slides2.html 1776 2009-12-13 18:04:22Z algalochkin $
+*
+* Thanks you, that you have left this header untouched!!!
+*}>
+<{if $xoops_dirname == "system"}>
+ <!-- slides on homepage and system pages only -->
+ <!-- width adjust 970px, 970px, 980px-->
+ <style>
+  .ixt-slides { position:relative;top: -80px; left: -24px;}
+  .ixt-slides ul{  list-style-type: none; height:177px; overflow:hidden; width:970px; position:relative; }
+  .ixt-slides ul li{ margin-left:0px; float:left; width:970px; height:177px; padding:0px;}
+  .ixt-slides ul li .ixt-slide-info{ float:left; width:240px; padding:0px; }
+  .ixt-slides p { padding-bottom:15px; }
+  .jcarousel-clip { width:970px; height:177px; overflow:hidden; position:relative;}
+  .jcarousel-list {z-index: 1; overflow: hidden; margin:0;}
+  .jcarousel-container { width:970px; position:relative; padding-top:12px; padding-left:52px;}
+  .jcarousel-prev, .jcarousel-next { font-size:0; line-height:0; width:49px; height:49px; cursor:pointer; position:absolute; top:106px; z-index:2;}
+ .jcarousel-prev { left:12px; background:url('<{xoImgUrl img/slides2/prev-button.png}>'); }
+ .jcarousel-next { right:-4px; background:url('<{xoImgUrl img/slides2/next-button.png}>'); }
+ </style>
+ <script type="text/javascript">
+ jQuery.easing['BounceEaseOut'] = function(p, t, b, c, d) {
+  if ((t/=d) < (1/2.75)) {
+   return c*(7.5625*t*t) + b;
+  } else if (t < (2/2.75)) {
+   return c*(7.5625*(t-=(1.5/2.75))*t + .75) + b;
+  } else if (t < (2.5/2.75)) {
+   return c*(7.5625*(t-=(2.25/2.75))*t + .9375) + b;
+  } else {
+   return c*(7.5625*(t-=(2.625/2.75))*t + .984375) + b;
+  }
+ };
+ jQuery(document).ready(function() { jQuery('.ixt-slides').jcarousel({	scroll:1, wrap:'both', easing:'BounceEaseOut', animation:1000 }); });
+ </script>
+
+ <div class="ixt-slides">
+  <ul>
+   <!-- slide 1 -->
+   <li>
+    <div class="ixt-slide-info">
+     <div class="ixt-Block">
+      <div class="ixt-Block-tl"></div><div class="ixt-Block-tr"></div><div class="ixt-Block-bl"></div><div class="ixt-Block-br"></div><div class="ixt-Block-tc"></div><div class="ixt-Block-bc"></div><div class="ixt-Block-cl"></div><div class="ixt-Block-cr"></div><div class="ixt-Block-cc"></div>
+      <div class="ixt-Block-body">
+       <div class="ixt-BlockContent">
+        <div class="ixt-BlockContent-body"> 
+         <a href="#" target="_self"><img width="184px" height="110px" src="<{xoImgUrl /img/slides2/slide001.jpg}>" alt="slide 1.1" /></a>
+        </div>
+       </div>
+      </div>
+     </div>	
+    </div>
+    <div class="ixt-slide-info">
+     <div class="ixt-Block">
+      <div class="ixt-Block-tl"></div><div class="ixt-Block-tr"></div><div class="ixt-Block-bl"></div><div class="ixt-Block-br"></div><div class="ixt-Block-tc"></div><div class="ixt-Block-bc"></div><div class="ixt-Block-cl"></div><div class="ixt-Block-cr"></div><div class="ixt-Block-cc"></div>
+      <div class="ixt-Block-body">
+       <div class="ixt-BlockContent">
+        <div class="ixt-BlockContent-body"> 
+         <a href="#" target="_self"><img width="184px" height="110px" src="<{xoImgUrl /img/slides2/slide005.jpg}>" alt="slide 1.2" /></a>
+        </div>
+       </div>
+      </div>
+     </div>	
+    </div>
+    <div class="ixt-slide-info">
+     <div class="ixt-Block">
+      <div class="ixt-Block-tl"></div><div class="ixt-Block-tr"></div><div class="ixt-Block-bl"></div><div class="ixt-Block-br"></div><div class="ixt-Block-tc"></div><div class="ixt-Block-bc"></div><div class="ixt-Block-cl"></div><div class="ixt-Block-cr"></div><div class="ixt-Block-cc"></div>
+      <div class="ixt-Block-body">
+       <div class="ixt-BlockContent">
+        <div class="ixt-BlockContent-body"> 
+         <a href="#" target="_self"><img width="184px" height="110px" src="<{xoImgUrl /img/slides2/slide006.jpg}>" alt="slide 1.3" /></a>
+        </div>
+       </div>
+      </div>
+     </div>	
+    </div>
+    <div class="ixt-slide-info">
+     <div class="ixt-Block">
+      <div class="ixt-Block-tl"></div><div class="ixt-Block-tr"></div><div class="ixt-Block-bl"></div><div class="ixt-Block-br"></div><div class="ixt-Block-tc"></div><div class="ixt-Block-bc"></div><div class="ixt-Block-cl"></div><div class="ixt-Block-cr"></div><div class="ixt-Block-cc"></div>
+      <div class="ixt-Block-body">
+       <div class="ixt-BlockContent">
+        <div class="ixt-BlockContent-body"> 
+         <a href="#" target="_self"><img width="184px" height="110px" src="<{xoImgUrl /img/slides2/slide004.jpg}>" alt="slide 1.4" /></a>
+        </div>
+       </div>
+      </div>
+     </div>	
+    </div>
+   </li>
+   <!-- slide 2 -->
+   <li>
+    <div class="ixt-slide-info">
+     <div class="ixt-Block">
+      <div class="ixt-Block-tl"></div><div class="ixt-Block-tr"></div><div class="ixt-Block-bl"></div><div class="ixt-Block-br"></div><div class="ixt-Block-tc"></div><div class="ixt-Block-bc"></div><div class="ixt-Block-cl"></div><div class="ixt-Block-cr"></div><div class="ixt-Block-cc"></div>
+      <div class="ixt-Block-body">
+       <div class="ixt-BlockContent">
+        <div class="ixt-BlockContent-body"> 
+         <a href="#" target="_self"><img width="184px" height="110px" src="<{xoImgUrl /img/slides2/slide007.jpg}>" alt="slide 2.1" /></a>
+        </div>
+       </div>
+      </div>
+     </div>	
+    </div>
+    <div class="ixt-slide-info">
+     <div class="ixt-Block">
+      <div class="ixt-Block-tl"></div><div class="ixt-Block-tr"></div><div class="ixt-Block-bl"></div><div class="ixt-Block-br"></div><div class="ixt-Block-tc"></div><div class="ixt-Block-bc"></div><div class="ixt-Block-cl"></div><div class="ixt-Block-cr"></div><div class="ixt-Block-cc"></div>
+      <div class="ixt-Block-body">
+       <div class="ixt-BlockContent">
+        <div class="ixt-BlockContent-body"> 
+         <a href="#" target="_self"><img width="184px" height="110px" src="<{xoImgUrl /img/slides2/slide002.jpg}>" alt="slide 2.2" /></a>
+        </div>
+       </div>
+      </div>
+     </div>	
+    </div>
+    <div class="ixt-slide-info">
+     <div class="ixt-Block">
+      <div class="ixt-Block-tl"></div><div class="ixt-Block-tr"></div><div class="ixt-Block-bl"></div><div class="ixt-Block-br"></div><div class="ixt-Block-tc"></div><div class="ixt-Block-bc"></div><div class="ixt-Block-cl"></div><div class="ixt-Block-cr"></div><div class="ixt-Block-cc"></div>
+      <div class="ixt-Block-body">
+       <div class="ixt-BlockContent">
+        <div class="ixt-BlockContent-body"> 
+         <a href="#" target="_self"><img width="184px" height="110px" src="<{xoImgUrl /img/slides2/slide003.jpg}>" alt="slide 2.3" /></a>
+        </div>
+       </div>
+      </div>
+     </div>	
+    </div>
+    <div class="ixt-slide-info">
+     <div class="ixt-Block">
+      <div class="ixt-Block-tl"></div><div class="ixt-Block-tr"></div><div class="ixt-Block-bl"></div><div class="ixt-Block-br"></div><div class="ixt-Block-tc"></div><div class="ixt-Block-bc"></div><div class="ixt-Block-cl"></div><div class="ixt-Block-cr"></div><div class="ixt-Block-cc"></div>
+      <div class="ixt-Block-body">
+       <div class="ixt-BlockContent">
+        <div class="ixt-BlockContent-body"> 
+         <a href="#" target="_self"><img width="184px" height="110px" src="<{xoImgUrl /img/slides2/slide008.jpg}>" alt="slide 2.4" /></a>
+        </div>
+       </div>
+      </div>
+     </div>	
+    </div>
+   </li>
+   <!-- slide 3 -->
+   <li>
+    <div class="ixt-slide-info">
+     <div class="ixt-Block">
+      <div class="ixt-Block-tl"></div><div class="ixt-Block-tr"></div><div class="ixt-Block-bl"></div><div class="ixt-Block-br"></div><div class="ixt-Block-tc"></div><div class="ixt-Block-bc"></div><div class="ixt-Block-cl"></div><div class="ixt-Block-cr"></div><div class="ixt-Block-cc"></div>
+      <div class="ixt-Block-body">
+       <div class="ixt-BlockContent">
+        <div class="ixt-BlockContent-body"> 
+         <a href="#" target="_self"><img width="184px" height="110px" src="<{xoImgUrl /img/slides2/slide001.jpg}>" alt="slide 3.1" /></a>
+        </div>
+       </div>
+      </div>
+     </div>	
+    </div>
+    <div class="ixt-slide-info">
+     <div class="ixt-Block">
+      <div class="ixt-Block-tl"></div><div class="ixt-Block-tr"></div><div class="ixt-Block-bl"></div><div class="ixt-Block-br"></div><div class="ixt-Block-tc"></div><div class="ixt-Block-bc"></div><div class="ixt-Block-cl"></div><div class="ixt-Block-cr"></div><div class="ixt-Block-cc"></div>
+      <div class="ixt-Block-body">
+       <div class="ixt-BlockContent">
+        <div class="ixt-BlockContent-body"> 
+         <a href="#" target="_self"><img width="184px" height="110px" src="<{xoImgUrl /img/slides2/slide005.jpg}>" alt="slide 3.2" /></a>
+        </div>
+       </div>
+      </div>
+     </div>	
+    </div>
+    <div class="ixt-slide-info">
+     <div class="ixt-Block">
+      <div class="ixt-Block-tl"></div><div class="ixt-Block-tr"></div><div class="ixt-Block-bl"></div><div class="ixt-Block-br"></div><div class="ixt-Block-tc"></div><div class="ixt-Block-bc"></div><div class="ixt-Block-cl"></div><div class="ixt-Block-cr"></div><div class="ixt-Block-cc"></div>
+      <div class="ixt-Block-body">
+       <div class="ixt-BlockContent">
+        <div class="ixt-BlockContent-body"> 
+         <a href="#" target="_self"><img width="184px" height="110px" src="<{xoImgUrl /img/slides2/slide003.jpg}>" alt="slide 3.3" /></a>
+        </div>
+       </div>
+      </div>
+     </div>	
+    </div>
+    <div class="ixt-slide-info">
+     <div class="ixt-Block">
+      <div class="ixt-Block-tl"></div><div class="ixt-Block-tr"></div><div class="ixt-Block-bl"></div><div class="ixt-Block-br"></div><div class="ixt-Block-tc"></div><div class="ixt-Block-bc"></div><div class="ixt-Block-cl"></div><div class="ixt-Block-cr"></div><div class="ixt-Block-cc"></div>
+      <div class="ixt-Block-body">
+       <div class="ixt-BlockContent">
+        <div class="ixt-BlockContent-body"> 
+         <a href="#" target="_self"><img width="184px" height="110px" src="<{xoImgUrl /img/slides2/slide006.jpg}>" alt="slide 3.4" /></a>
+        </div>
+       </div>
+      </div>
+     </div>	
+    </div>
+   </li>
+  </ul>			
+ </div>			
+<{/if}>

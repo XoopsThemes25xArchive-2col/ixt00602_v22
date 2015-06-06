@@ -1,0 +1,43 @@
+<{*
+* Qualitative Themes for XOOPS
+*
+* @license       http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
+* @project       IXThemes Project, http://ixthemes.org
+* @theme_name    ixt00000
+* @theme_demo    http://ixthemes.sourceforge.net/demo/x/index.php?xoops_theme_select=ixt00000
+* @theme_author  Alexander Galochkin (algalochkin at users.sourceforge.net)
+* @version       $Id: scripts.html 1776 2009-12-13 18:04:22Z algalochkin $
+*
+* Thanks you, that you have left this header untouched!!!
+*}>
+<script type="text/javascript" src="<{xoImgUrl js/script.js}>"></script>
+<{if isset($xoops_version) && ($xoops_version|lower|replace:" ":""|truncate:8:"" == "xoops2.4")}>
+ <script type="text/javascript" src="<{$ixt_url}>/browse.php?Frameworks/jquery/jquery.js" charset="utf-8"></script>
+<{else }>
+ <script type="text/javascript" src="<{xoImgUrl js/jquery.js}>" charset="utf-8"></script>
+<{/if}>
+
+<{* Module extgallery *}>
+<{if $xoops_dirname == "extgallery"}>
+<link rel="stylesheet" href="<{xoImgUrl css/prettyPhoto.css}>" type="text/css" media="screen" charset="utf-8" />
+<script src="<{xoImgUrl js/jquery.prettyPhoto.js}>" type="text/javascript" charset="utf-8"></script>
+<!--[if IE 6]>
+	<script src="<{xoImgUrl js/DD_belatedPNG_0.0.7a-min.js}>"></script>
+	<script>
+		DD_belatedPNG.fix('.pp_left,.pp_right,a.pp_close,a.pp_arrow_next,a.pp_arrow_previous,.pp_content,.pp_middle');     
+	</script>
+<![endif]-->
+<{/if}>
+<script type="text/javascript" src="<{xoImgUrl js/jquery.jcarousel.pack.js}>" charset="utf-8"></script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7383535-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- End Google Analytics -->
